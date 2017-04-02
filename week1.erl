@@ -11,7 +11,7 @@ bits(N, S) when N rem 2 == 0 ->
 bits(N, S) ->
   bits(N - 1, S + 1).
 %% > bits(8)
-%% 0 (100)
+%% 1 (100)
 %% > bits(15)
 %% 4 (1111)
 
